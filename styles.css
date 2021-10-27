@@ -24,6 +24,7 @@ body {
 main {
     background-color: #ffff;
     border-radius: 20px;
+    box-shadow: 0px 40px 40px rgba(13, 48, 189, 0.151826);
     height: 567px;
     width: 327px;
     margin-top: 71px;
@@ -41,6 +42,7 @@ main {
     align-items: center;
     text-align: center;
     margin-top: 6%;
+    margin-bottom: 2%;
     padding: 0 1.5rem;
 }
 
@@ -59,18 +61,86 @@ main {
     display: grid;
     background-color: var(--neutral-pale-blue);
     border-radius: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
     height: 81px;
     width: 279px;
-};
+    margin: auto;
+}
 
 .music-note {
-    background-color: red;
+    background-color: var(--primary-pale-blue);
     border-radius: 50%;
     height: 48px;
     width: 48px;
+    margin: auto;
 }
 
-.plan-change-btn {
-    
+.plan-text {
+    margin-top: auto;
+    margin-bottom: auto;
 }
+.plan-change-link {
+    font-size: 13px;
+    margin: auto;
+}
+
+.plan-change-link:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
+
+.plan-type, .plan-price {
+    font-size: 14px;
+    margin: 0;
+}
+
+.plan-type {
+    font-weight: 700;
+}
+
+.plan-price {
+    color: var(--neutral-desat-blue);
+}
+
+.btn-group {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.payment-btn, .cancel-btn {
+    border: none;
+    border-radius: 11px;
+    margin: .5rem;
+    width: 279px;
+    height: 50px;
+
+}
+
+.payment-btn {
+    background-color: var(--primary-bright-blue);
+    color:  #ffff;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.payment-btn:hover {
+    background-color: #766CF1;
+    transition: 0.1s;
+}
+
+.cancel-btn {
+    background-color: transparent;
+    color: var(--neutral-desat-blue);
+    cursor: pointer ;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.cancel-btn:hover {
+    color: #1F2E55;
+}
+
