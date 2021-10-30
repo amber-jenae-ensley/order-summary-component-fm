@@ -66,4 +66,4 @@ I'd like to continue working with responsive and mobile first designs. I also fe
 
 ## Author
 
-- Frontend Mentor - [@ajensley](https://www.frontendmentor.io/profile/ajensley)
+- Frontend Mentor - [@amberensley](https://www.frontendmentor.io/profile/amberensley)
