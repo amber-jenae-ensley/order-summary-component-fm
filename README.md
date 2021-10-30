@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/amber-jenae-ensley/order-summary-component-fm)
-- Live Site URL: [Add live site URL here](https://amber-jenae-ensley.github.io/order-summary-component-fm/)
+- Solution URL: [My Github Repo](https://github.com/amber-jenae-ensley/order-summary-component-fm)
+- Live Site URL: [My Gitpages](https://amber-jenae-ensley.github.io/order-summary-component-fm/)
 
 ## My process
 
